@@ -1,0 +1,14 @@
+PODS:
+  - AvinAd_iOS (0.1.0)
+
+DEPENDENCIES:
+  - AvinAd_iOS (from `../`)
+
+EXTERNAL SOURCES:
+  AvinAd_iOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AvinAd_iOS: ff0bed4351deaedfa52c58c869c734ae2b76dcd3
+
+COCOAPODS: 0.39.0

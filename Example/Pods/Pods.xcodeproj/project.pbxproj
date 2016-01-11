@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00788CDFF5E1C54B0A582A51D60FDF57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		18BE340DA98A9F2F67627526DAE4D876 /* Pods-AvinAd_iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70983A9AE49950F4ABF297E6C147404 /* Pods-AvinAd_iOS_Tests-dummy.m */; };
+		5503FB90DDD09DEB4CCF38ABEE614288 /* AvinAd_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9500A7C36334366E71015AAA6DD5DAF /* AvinAd_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F4F4194E3C8493E337F617BED9D8F9D /* AvinAd_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F7FE91507D6BD24A0C8761FBAB6232 /* AvinAd_iOS-dummy.m */; };
+		69BCCF1B19A1E7C64F2979C47BE20942 /* Pods-AvinAd_iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E16D43D78152C3A14502AF77FBE561CC /* Pods-AvinAd_iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75CD733A7781C9C2EC31C39AFC52118C /* Pods-AvinAd_iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CF1EFAD8E79570BF5B3722677988D6 /* Pods-AvinAd_iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FC64E86BCD6282FD6022097E376B6CB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E698B5824C9DB6511DD6D35F04B1F8D /* ReplaceMe.swift */; };
+		8AC0DD3C5C3F3D4FEC9B706CB5CEBF34 /* Pods-AvinAd_iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5136035D4E0B1B6358149DF93435ED /* Pods-AvinAd_iOS_Example-dummy.m */; };
+		C8BCE912F4E97ECD0E954E09EDF09454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E84432A359A1683DD08102E699E7BF30 /* AvinAd_iOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD58BADB6B276D9766FCD2CA0C59A557 /* AvinAd_iOS.bundle */; };
+		F4F6F1969888B4A05BDCBA0D454182D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1732F126D38310F79EDD49EC19BF48AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63C33DF58B93BD82E25242481B3420D0;
+			remoteInfo = AvinAd_iOS;
+		};
+		A82895A44A7B4F7A41CBD4F01B88441A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63C33DF58B93BD82E25242481B3420D0;
+			remoteInfo = AvinAd_iOS;
+		};
+		F7796DA979CD5AA38BAFA279A4A4E443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3512C8E99CB07A778812BD177EB81A;
+			remoteInfo = "AvinAd_iOS-AvinAd_iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0542A4F06C72BBAD7C8637351B473805 /* Pods-AvinAd_iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvinAd_iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		15B2EDA1B5DB80C1AA8A56FB0284C428 /* Pods-AvinAd_iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvinAd_iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		19CF1EFAD8E79570BF5B3722677988D6 /* Pods-AvinAd_iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvinAd_iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		1FA83A1FFA3561B9DB6EDBF8A214B24C /* Pods-AvinAd_iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AvinAd_iOS_Example.modulemap"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D525C2C9F4702C7CAA00F014B842101 /* Pods-AvinAd_iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvinAd_iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		519ADC2D53EDB62815FA1EE450A6DFC2 /* Pods-AvinAd_iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvinAd_iOS_Example-resources.sh"; sourceTree = "<group>"; };
+		6148538A47C65810B5632D24672B986A /* Pods_AvinAd_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvinAd_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B48C425C6CD6F33961C0537C424B65 /* AvinAd_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AvinAd_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD4BAC2A1EE3592D86F0712B40EE2E8 /* Pods-AvinAd_iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AvinAd_iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		8132CACDDD5715A87362737497360912 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833C765CA8BFB9E71DC7B9518E602FF7 /* Pods-AvinAd_iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvinAd_iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C7C7BB00365F1BB533F12A350EAA688 /* AvinAd_iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvinAd_iOS.xcconfig; sourceTree = "<group>"; };
+		8E53974BDF32C4F848F0D884B1EF62DC /* Pods-AvinAd_iOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvinAd_iOS_Tests-resources.sh"; sourceTree = "<group>"; };
+		8E698B5824C9DB6511DD6D35F04B1F8D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		95F7FE91507D6BD24A0C8761FBAB6232 /* AvinAd_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AvinAd_iOS-dummy.m"; sourceTree = "<group>"; };
+		97CA5FB4D83F886A3C1D706C87294D87 /* Pods-AvinAd_iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvinAd_iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9C0DDA821CD48483AA170CED77E514A2 /* Pods-AvinAd_iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvinAd_iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9E9E014D6778B79E3FD2B8EA394D3D73 /* Pods-AvinAd_iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvinAd_iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9F5136035D4E0B1B6358149DF93435ED /* Pods-AvinAd_iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvinAd_iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		A9A674A891E2F8BF9CFF0C3D5C49A7E0 /* AvinAd_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AvinAd_iOS.modulemap; sourceTree = "<group>"; };
+		B116AC7DDF6B5BD59D96A0CA9DE0F0F0 /* AvinAd_iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvinAd_iOS-prefix.pch"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD1E0CCAEEA736457A3C0069AD1CD0A9 /* Pods-AvinAd_iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvinAd_iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD58BADB6B276D9766FCD2CA0C59A557 /* AvinAd_iOS.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvinAd_iOS.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF00CAA6D0E5498CB3854589203B5879 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A1AE353A5C0C63B5EBB00C08025C69 /* Pods-AvinAd_iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvinAd_iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D70983A9AE49950F4ABF297E6C147404 /* Pods-AvinAd_iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvinAd_iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB3C56D094063B6CCF2E475AFB8A4704 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16D43D78152C3A14502AF77FBE561CC /* Pods-AvinAd_iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvinAd_iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E5BC75D710EA944FD9F773703919EAED /* Pods_AvinAd_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvinAd_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9500A7C36334366E71015AAA6DD5DAF /* AvinAd_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvinAd_iOS-umbrella.h"; sourceTree = "<group>"; };
+		F8464F8C00DFA81B2CA6C3F108B4F1C1 /* Pods-AvinAd_iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvinAd_iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75CEF7547DF464FF971E823882E6460D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F6F1969888B4A05BDCBA0D454182D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776869E100DB87227269906A71BF7C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85D7EE2F6689BFA617049A385328191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BCE912F4E97ECD0E954E09EDF09454 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D2FDCB76C45DE81E9731A972206E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00788CDFF5E1C54B0A582A51D60FDF57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D15127708DB12B6AE935C37E43DD2F /* Pods-AvinAd_iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8132CACDDD5715A87362737497360912 /* Info.plist */,
+				6CD4BAC2A1EE3592D86F0712B40EE2E8 /* Pods-AvinAd_iOS_Tests.modulemap */,
+				4D525C2C9F4702C7CAA00F014B842101 /* Pods-AvinAd_iOS_Tests-acknowledgements.markdown */,
+				D2A1AE353A5C0C63B5EBB00C08025C69 /* Pods-AvinAd_iOS_Tests-acknowledgements.plist */,
+				D70983A9AE49950F4ABF297E6C147404 /* Pods-AvinAd_iOS_Tests-dummy.m */,
+				9E9E014D6778B79E3FD2B8EA394D3D73 /* Pods-AvinAd_iOS_Tests-frameworks.sh */,
+				8E53974BDF32C4F848F0D884B1EF62DC /* Pods-AvinAd_iOS_Tests-resources.sh */,
+				E16D43D78152C3A14502AF77FBE561CC /* Pods-AvinAd_iOS_Tests-umbrella.h */,
+				CD1E0CCAEEA736457A3C0069AD1CD0A9 /* Pods-AvinAd_iOS_Tests.debug.xcconfig */,
+				9C0DDA821CD48483AA170CED77E514A2 /* Pods-AvinAd_iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-AvinAd_iOS_Tests";
+			path = "Target Support Files/Pods-AvinAd_iOS_Tests";
+			sourceTree = "<group>";
+		};
+		1CDF52649BE6BC70958223468196F800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD58BADB6B276D9766FCD2CA0C59A557 /* AvinAd_iOS.bundle */,
+				68B48C425C6CD6F33961C0537C424B65 /* AvinAd_iOS.framework */,
+				6148538A47C65810B5632D24672B986A /* Pods_AvinAd_iOS_Example.framework */,
+				E5BC75D710EA944FD9F773703919EAED /* Pods_AvinAd_iOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64C8C9305C2D16C96614A49B8C1E7BEC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0A967FA4F7BAE34F81BDBEB1C01ED5E /* AvinAd_iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		74ADA9C5DF63367109C249FEE2FEBD02 /* Pods-AvinAd_iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CF00CAA6D0E5498CB3854589203B5879 /* Info.plist */,
+				1FA83A1FFA3561B9DB6EDBF8A214B24C /* Pods-AvinAd_iOS_Example.modulemap */,
+				F8464F8C00DFA81B2CA6C3F108B4F1C1 /* Pods-AvinAd_iOS_Example-acknowledgements.markdown */,
+				833C765CA8BFB9E71DC7B9518E602FF7 /* Pods-AvinAd_iOS_Example-acknowledgements.plist */,
+				9F5136035D4E0B1B6358149DF93435ED /* Pods-AvinAd_iOS_Example-dummy.m */,
+				15B2EDA1B5DB80C1AA8A56FB0284C428 /* Pods-AvinAd_iOS_Example-frameworks.sh */,
+				519ADC2D53EDB62815FA1EE450A6DFC2 /* Pods-AvinAd_iOS_Example-resources.sh */,
+				19CF1EFAD8E79570BF5B3722677988D6 /* Pods-AvinAd_iOS_Example-umbrella.h */,
+				0542A4F06C72BBAD7C8637351B473805 /* Pods-AvinAd_iOS_Example.debug.xcconfig */,
+				97CA5FB4D83F886A3C1D706C87294D87 /* Pods-AvinAd_iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-AvinAd_iOS_Example";
+			path = "Target Support Files/Pods-AvinAd_iOS_Example";
+			sourceTree = "<group>";
+		};
+		792A49D9C1EB751EEBDEFE4CCC66457E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E698B5824C9DB6511DD6D35F04B1F8D /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				64C8C9305C2D16C96614A49B8C1E7BEC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1CDF52649BE6BC70958223468196F800 /* Products */,
+				BCBDD7F96BB035ABCFCC9A555F8BD1BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF44C4379C8F10E9210EEB50CC7B967 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				792A49D9C1EB751EEBDEFE4CCC66457E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCBDD7F96BB035ABCFCC9A555F8BD1BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74ADA9C5DF63367109C249FEE2FEBD02 /* Pods-AvinAd_iOS_Example */,
+				03D15127708DB12B6AE935C37E43DD2F /* Pods-AvinAd_iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF3756EEBBDE3967DA570730D7F280F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9A674A891E2F8BF9CFF0C3D5C49A7E0 /* AvinAd_iOS.modulemap */,
+				8C7C7BB00365F1BB533F12A350EAA688 /* AvinAd_iOS.xcconfig */,
+				95F7FE91507D6BD24A0C8761FBAB6232 /* AvinAd_iOS-dummy.m */,
+				B116AC7DDF6B5BD59D96A0CA9DE0F0F0 /* AvinAd_iOS-prefix.pch */,
+				E9500A7C36334366E71015AAA6DD5DAF /* AvinAd_iOS-umbrella.h */,
+				DB3C56D094063B6CCF2E475AFB8A4704 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AvinAd_iOS";
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0A967FA4F7BAE34F81BDBEB1C01ED5E /* AvinAd_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABF44C4379C8F10E9210EEB50CC7B967 /* Pod */,
+				BF3756EEBBDE3967DA570730D7F280F2 /* Support Files */,
+			);
+			name = AvinAd_iOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		576DB6E86B45BBF233AB70B360D23ECA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CD733A7781C9C2EC31C39AFC52118C /* Pods-AvinAd_iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA01DDD7050A9BEF5C8F438D6713E29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BCCF1B19A1E7C64F2979C47BE20942 /* Pods-AvinAd_iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC85CC5A8A3361F45FB62012037B9F96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5503FB90DDD09DEB4CCF38ABEE614288 /* AvinAd_iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C3512C8E99CB07A778812BD177EB81A /* AvinAd_iOS-AvinAd_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CAB7262F153BD74B9DC37FC950807DC /* Build configuration list for PBXNativeTarget "AvinAd_iOS-AvinAd_iOS" */;
+			buildPhases = (
+				76C8B8C0EF8F2A4107CE7D0DCA3A21B7 /* Sources */,
+				776869E100DB87227269906A71BF7C8B /* Frameworks */,
+				F97FF6F6F33DE4248A7638074A9D5C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AvinAd_iOS-AvinAd_iOS";
+			productName = "AvinAd_iOS-AvinAd_iOS";
+			productReference = CD58BADB6B276D9766FCD2CA0C59A557 /* AvinAd_iOS.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		59EDF505ADD0FF5F5BC7033D4C5D67E0 /* Pods-AvinAd_iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A73A3AD2AB3638274EA151E8F089CDA /* Build configuration list for PBXNativeTarget "Pods-AvinAd_iOS_Example" */;
+			buildPhases = (
+				C18B7DBE5311A0951071F0F82A9CE537 /* Sources */,
+				E20D2FDCB76C45DE81E9731A972206E8 /* Frameworks */,
+				576DB6E86B45BBF233AB70B360D23ECA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0222C1FDBFB46FAC301E396FA44F0EC7 /* PBXTargetDependency */,
+			);
+			name = "Pods-AvinAd_iOS_Example";
+			productName = "Pods-AvinAd_iOS_Example";
+			productReference = 6148538A47C65810B5632D24672B986A /* Pods_AvinAd_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63C33DF58B93BD82E25242481B3420D0 /* AvinAd_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C9B786875C1DC489DA854648742F6F /* Build configuration list for PBXNativeTarget "AvinAd_iOS" */;
+			buildPhases = (
+				7E2EB4BF8EDCD90975158A2E23FAE9A1 /* Sources */,
+				A85D7EE2F6689BFA617049A385328191 /* Frameworks */,
+				D76481F06098A6B85C81423667A41A3A /* Resources */,
+				EC85CC5A8A3361F45FB62012037B9F96 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1B63EB4ACC912A6201D1C4645E2D1A /* PBXTargetDependency */,
+			);
+			name = AvinAd_iOS;
+			productName = AvinAd_iOS;
+			productReference = 68B48C425C6CD6F33961C0537C424B65 /* AvinAd_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B297D8F6218B504578A0DB9A71625E05 /* Pods-AvinAd_iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE25840C3CA4D495800E6466CE744AA0 /* Build configuration list for PBXNativeTarget "Pods-AvinAd_iOS_Tests" */;
+			buildPhases = (
+				07F35CD23CC31FD2C5D923A73BA941FC /* Sources */,
+				75CEF7547DF464FF971E823882E6460D /* Frameworks */,
+				BCA01DDD7050A9BEF5C8F438D6713E29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE2C6378A373DE26AEA3997F0D37460A /* PBXTargetDependency */,
+			);
+			name = "Pods-AvinAd_iOS_Tests";
+			productName = "Pods-AvinAd_iOS_Tests";
+			productReference = E5BC75D710EA944FD9F773703919EAED /* Pods_AvinAd_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1CDF52649BE6BC70958223468196F800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C33DF58B93BD82E25242481B3420D0 /* AvinAd_iOS */,
+				4C3512C8E99CB07A778812BD177EB81A /* AvinAd_iOS-AvinAd_iOS */,
+				59EDF505ADD0FF5F5BC7033D4C5D67E0 /* Pods-AvinAd_iOS_Example */,
+				B297D8F6218B504578A0DB9A71625E05 /* Pods-AvinAd_iOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D76481F06098A6B85C81423667A41A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84432A359A1683DD08102E699E7BF30 /* AvinAd_iOS.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97FF6F6F33DE4248A7638074A9D5C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F35CD23CC31FD2C5D923A73BA941FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE340DA98A9F2F67627526DAE4D876 /* Pods-AvinAd_iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C8B8C0EF8F2A4107CE7D0DCA3A21B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2EB4BF8EDCD90975158A2E23FAE9A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4F4194E3C8493E337F617BED9D8F9D /* AvinAd_iOS-dummy.m in Sources */,
+				7FC64E86BCD6282FD6022097E376B6CB /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18B7DBE5311A0951071F0F82A9CE537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC0DD3C5C3F3D4FEC9B706CB5CEBF34 /* Pods-AvinAd_iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0222C1FDBFB46FAC301E396FA44F0EC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvinAd_iOS;
+			target = 63C33DF58B93BD82E25242481B3420D0 /* AvinAd_iOS */;
+			targetProxy = 1732F126D38310F79EDD49EC19BF48AC /* PBXContainerItemProxy */;
+		};
+		5C1B63EB4ACC912A6201D1C4645E2D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AvinAd_iOS-AvinAd_iOS";
+			target = 4C3512C8E99CB07A778812BD177EB81A /* AvinAd_iOS-AvinAd_iOS */;
+			targetProxy = F7796DA979CD5AA38BAFA279A4A4E443 /* PBXContainerItemProxy */;
+		};
+		FE2C6378A373DE26AEA3997F0D37460A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvinAd_iOS;
+			target = 63C33DF58B93BD82E25242481B3420D0 /* AvinAd_iOS */;
+			targetProxy = A82895A44A7B4F7A41CBD4F01B88441A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F682742F7B58B5A0A440575F161568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0542A4F06C72BBAD7C8637351B473805 /* Pods-AvinAd_iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvinAd_iOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvinAd_iOS_Example/Pods-AvinAd_iOS_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AvinAd_iOS_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B72A4362F75DF3A395D4ACF0FE3C02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1E0CCAEEA736457A3C0069AD1CD0A9 /* Pods-AvinAd_iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvinAd_iOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvinAd_iOS_Tests/Pods-AvinAd_iOS_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AvinAd_iOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6587A7DC2752C9A5BB22C485B3735090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0DDA821CD48483AA170CED77E514A2 /* Pods-AvinAd_iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvinAd_iOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvinAd_iOS_Tests/Pods-AvinAd_iOS_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AvinAd_iOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7359BE59822D566B9496E1A3D0702780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CA5FB4D83F886A3C1D706C87294D87 /* Pods-AvinAd_iOS_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvinAd_iOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvinAd_iOS_Example/Pods-AvinAd_iOS_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AvinAd_iOS_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BDE50C560C48DE027030E8D19201317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7C7BB00365F1BB533F12A350EAA688 /* AvinAd_iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AvinAd_iOS/AvinAd_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvinAd_iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AvinAd_iOS/AvinAd_iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AvinAd_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81F59B1F705DBCCAC5401177197A63F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7C7BB00365F1BB533F12A350EAA688 /* AvinAd_iOS.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AvinAd_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B918FD88BC599784C07C5008008B50EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7C7BB00365F1BB533F12A350EAA688 /* AvinAd_iOS.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AvinAd_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DD942C81526784DEF40E74302212D45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7C7BB00365F1BB533F12A350EAA688 /* AvinAd_iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AvinAd_iOS/AvinAd_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvinAd_iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AvinAd_iOS/AvinAd_iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AvinAd_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C9B786875C1DC489DA854648742F6F /* Build configuration list for PBXNativeTarget "AvinAd_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDE50C560C48DE027030E8D19201317 /* Debug */,
+				DD942C81526784DEF40E74302212D45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CAB7262F153BD74B9DC37FC950807DC /* Build configuration list for PBXNativeTarget "AvinAd_iOS-AvinAd_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B918FD88BC599784C07C5008008B50EE /* Debug */,
+				81F59B1F705DBCCAC5401177197A63F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A73A3AD2AB3638274EA151E8F089CDA /* Build configuration list for PBXNativeTarget "Pods-AvinAd_iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F682742F7B58B5A0A440575F161568 /* Debug */,
+				7359BE59822D566B9496E1A3D0702780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE25840C3CA4D495800E6466CE744AA0 /* Build configuration list for PBXNativeTarget "Pods-AvinAd_iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B72A4362F75DF3A395D4ACF0FE3C02F /* Debug */,
+				6587A7DC2752C9A5BB22C485B3735090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

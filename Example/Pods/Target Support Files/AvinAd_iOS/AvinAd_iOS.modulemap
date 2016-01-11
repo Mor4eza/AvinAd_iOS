@@ -1,0 +1,6 @@
+framework module AvinAd_iOS {
+  umbrella header "AvinAd_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
